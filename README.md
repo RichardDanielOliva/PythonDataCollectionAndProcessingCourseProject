@@ -10,6 +10,6 @@ The documentation for the API is at https://tastedive.com/read/api.
 The documentation for the API is at https://www.omdbapi.com/
 
 ## functions
-#### 1. def get_movies_from_tastedive(movieName, key="327878-course3p-I4ZNBN4A"): 
+#### 1. def get_movies_from_tastedive(movieName, key="ExampleKey"): 
 #### IMPORTANT NOTE: You will need a key to get the request for the TasteDive API. For default, I provided my personal key. Please, be careful we that.
 It should take two input parameter, a string that is the name of a movie or music artist and the API key's. The function should return the 5 TasteDive results that are associated with that string; rigth now it only get movies, not other kinds of media. It will return a python dictionary with just one key, ‘Similar’.
